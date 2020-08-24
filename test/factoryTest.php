@@ -2,6 +2,7 @@
 
 namespace Factory\src;
 namespace Factory\spaces;
+namespace Factory\test;
 namespace Factory\test\factories;
 
 use Factory\src\Space;
