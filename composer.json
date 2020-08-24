@@ -1,0 +1,13 @@
+{
+    "name": "fola/factory",
+    "require": {
+        "composer/composer": "^1.10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Folaranmi Adeyeri",
+            "email": "folar@gmail.com"
+        }
+    ]
+}
