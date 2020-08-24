@@ -5,12 +5,8 @@ namespace Factory\spaces;
 namespace Factory\test;
 namespace Factory\test\factories;
 
-use Factory\src\Space;
-use Factory\test\factories\SpaceFactory;
 use Factory\src\DirectSpace;
-use Factory\test\factories\DirectSpaceFactory;
 use Factory\src\GroupSpace;
-use Factory\test\factories\GroupSpaceFactory;
 use PHPUnit\Framework\TestCase;
 
 
