@@ -1,11 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Factory\src;
-namespace Factory\spaces;
-namespace Factory\test\factories;
+namespace Test\factories;
 
-use Factory\src\DirectSpace;
-use Factory\src\Space;
+use Spaces\DirectSpace;
+use Src\Space;
+
 
 class DirectSpaceFactory implements SpaceFactory
 {

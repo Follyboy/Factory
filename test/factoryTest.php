@@ -1,16 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace Factory\src;
-namespace Factory\spaces;
-namespace Factory\test;
-namespace Factory\test\factories;
+namespace Test;
 
-use Factory\src\DirectSpace;
-use Factory\src\GroupSpace;
+use Spaces\DirectSpace;
+use Spaces\GroupSpace;
+use Test\factories\DirectSpaceFactory;
+use Test\factories\GroupSpaceFactory;
 use PHPUnit\Framework\TestCase;
 
 
-class FactoryTest extends TestCase
+class factoryTest extends TestCase
 {
     public function testCanCreateDirectSpace()
     {
@@ -28,4 +27,3 @@ class FactoryTest extends TestCase
         $this->assertInstanceOf(GroupSpace::class, $logger);
     }
 }
-

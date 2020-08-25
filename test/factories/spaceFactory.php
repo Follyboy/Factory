@@ -1,9 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Factory\src;
-namespace Factory\test\factories;
+namespace Test\factories;
 
-use Factory\src\Space;
+use Src\Space;
 
 interface SpaceFactory
 {

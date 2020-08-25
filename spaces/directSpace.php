@@ -1,11 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace Factory\src;
+namespace Spaces;
+
+use Src\Space;
 
 class DirectSpace implements Space
 {
     public function log()
     {
-        echo 'This is a Direct Space for Direct Conversations';
+        echo '<center><h1>This is a Direct Space for Direct Conversations</h1></center>';
     }
 }

@@ -1,11 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace Factory\src;
+namespace Spaces;
+
+use Src\Space;
 
 class GroupSpace implements Space
 {
     public function log()
     {
-        echo 'This is a Group Space for Group Conversations';
+        echo '<center><h1>This is a Group Space for Group Conversations</h1></center>';
     }
 }
