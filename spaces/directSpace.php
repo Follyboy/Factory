@@ -15,4 +15,19 @@ class DirectSpace implements Space
     {
         echo '<center><h1>This is a Direct Space for Direct Conversations</h1></center>';
     }
+
+    public function registerToNetwork()
+    {
+        return 'different from group';
+    }
+
+    public function save()
+    {
+        // TODO: Implement save() method.
+    }
+
+    public function toDto()
+    {
+        // TODO: Implement toDto() method.
+    }
 }

@@ -9,13 +9,17 @@ use Spaces\GroupSpace;
 
 class SpaceFactory
 {
-    public function __construct(Space $space)
+    public function __construct()
     {
-        switch ($space->getType()) {
+    }
+
+    public function newSpace(array $data, $roles = null)
+    {
+        switch ($data['type']) {
             case 'direct':
-                return new DirectSpace();
+                return new DirectSpace($data);
             case 'group':
-                return new GroupSpace();
+                return new GroupSpace($data);
             default:
                 throw new \Exception('Space type not recognized');
         }
