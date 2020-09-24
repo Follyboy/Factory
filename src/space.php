@@ -4,5 +4,6 @@ namespace Src;
 
 interface Space
 {
-  public function log();
+    public function getType();
+    public function log();
 }
